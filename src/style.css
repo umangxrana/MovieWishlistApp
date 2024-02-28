@@ -1,0 +1,321 @@
+body {
+    font-family: 'Arial, san-serif';
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    /* background-color: #333; */
+    /* color:white; */
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 85px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+
+}
+
+.navnar-links{
+    display: flex;
+}
+
+.navnar-links a {
+    color:black;
+    text-decoration:solid;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navnar-links a:hover{
+    text-decoration: underline;
+}
+
+.LoginButton{
+   display: inline-block;
+   margin-right: 10px;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   color: #ffc400f5;
+   border: 2px solid #ffc400f5;
+   background-color: rgb(0, 0, 0);
+   border-radius: 13px;
+   transition: background-color 0.3s , color 0.3s;
+
+}
+
+.LoginButton:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+
+.SignUpButton{
+    display: inline-block;
+    margin-right: 10px;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   color: #ffc400f5;
+   border: 2px solid #ffc400f5;
+   background-color: rgb(0, 0, 0);
+   border-radius: 13px;
+   transition: background-color 0.3s , color 0.3s;
+
+}
+.SignUpButton:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+.MoviesButton{
+    display: inline-block;
+   margin-right: 10px;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   color: #ffc400f5;
+   border: 2px solid #ffc400f5;
+   background-color: rgb(0, 0, 0);
+   border-radius: 13px;
+   transition: background-color 0.3s , color 0.3s;
+
+}
+.MoviesButton:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+.WishlistButton{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffc400f5;
+   border: 2px solid #ffc400f5;
+   background-color: rgb(0, 0, 0);
+    border-radius: 13px;
+    transition: background-color 0.3s , color 0.3s;
+  
+}
+.WishlistButton:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+.LogoutButton{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffc400f5;
+    border: 2px solid #ffc400f5;
+    background-color: rgb(0, 0, 0);
+    border-radius: 13px;
+    transition: background-color 0.3s , color 0.3s;
+  
+}
+.LogoutButton:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+
+.footerStyle{
+    background-color:#2c3e50;
+    color: #ecf0f1;
+    text-align: 'center';
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeButton{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: cneter;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffc400f5;
+   border: 2px solid #ffc400f5;
+   background-color: rgb(0, 0, 0);
+    border-radius: 13px;
+    transition: background-color 0.3s , color 0.3s;
+ 
+ }
+
+ .HomeButton:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+.heading{
+    text-align: center;
+    margin: 10px;
+}
+.Home{
+    /* margin: 250px; */
+    color: #fa0000;
+    background-color: #4CAF50;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://themes.ishyoboy.com/freelo/wp/wp-content/uploads/2015/07/film_camera.jpg);
+    /* background-image: url(https://cdn.apollo.audio/one/media/63ff/5626/26cc/d805/ca3e/6481/stranger-things-play.jpg?quality=80&format=jpg&crop=0,0,843,1500&resize=crop); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.Home h1{
+    font-family: montserrat;
+    color: #000000;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 30%;
+}
+.WishlistBtn{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffc400f5;
+    border: 2px solid #ffc400f5;
+    background-color: rgb(0, 0, 0);
+    border-radius: 13px;
+    transition: background-color 0.3s , color 0.3s;
+}
+.WishlistBtn:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+.MoviesBtn{
+   
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffc400f5;
+    border: 2px solid #ffc400f5;
+    background-color: rgb(0, 0, 0);
+    border-radius: 13px;
+    transition: background-color 0.3s , color 0.3s;
+}
+.MoviesBtn:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+.Mrating{
+    text-align: center;
+}
+.Myear{
+    text-align: center;
+}
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+.pagination li{
+    margin: 0 5px;
+
+}
+.pagination button{
+    padding: 8px 12px;
+    cursor:pointer;
+    color: #ffc400f5;
+   border: 2px solid #ffc400f5;
+   background-color: rgb(255, 255, 255);
+    color:#333;
+}
+.pagination button:hover{
+    background-color: #ffc400f5;
+    color: rgb(0, 0, 0);
+}
+.pagination .active button{
+    background-color: #17c217;
+    color:rgb(255, 217, 0);
+    border:1px solid #4CAF50;
+}
+
+ #root{
+    /* background-color: #d5e037; */
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/vintage-videocamera-with-3d-glasses-cinema-tickets_23-2148133568.jpg);
+    /* background-image: url(https://cdn.apollo.audio/one/media/63ff/5626/26cc/d805/ca3e/6481/stranger-things-play.jpg?quality=80&format=jpg&crop=0,0,843,1500&resize=crop); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.movienameHead{
+    font-family: montserrat;
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.wishlistheadername{
+    font-family: montserrat;
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+}
+
+#dbur01{
+    height: 200vh;
+    width: 100%;
+    /* background-color: #d5e037; */
+    background-image: url(https://thumbs.dreamstime.com/z/cinema-background-popcorn-clapperboard-yellow-background-cinema-background-film-watching-popcorn-clapperboard-yellow-118775174.jpg);
+    /* background-image: url(https://cdn.apollo.audio/one/media/63ff/5626/26cc/d805/ca3e/6481/stranger-things-play.jpg?quality=80&format=jpg&crop=0,0,843,1500&resize=crop); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#overflowIssue{
+    width: 100%;
+}
